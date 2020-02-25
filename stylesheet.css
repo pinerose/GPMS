@@ -1,0 +1,44 @@
+
+	#grid{
+	display: grid;
+	grid-template-columns:200px 1fr;
+	}
+	
+	h1{
+	font-size:60px;
+	border-bottom:3px solid gray;
+	padding:40px;
+	margin:0;
+	}
+	
+	#grid ol{
+	border-right:1px solid gray;
+	padding:20px;
+	margin:0;
+	}
+	
+	span{
+	font-size:30px;
+	}
+	
+	.main{
+	padding:20px;
+	border-left:1px solid gray;
+	}
+	
+	.caution{
+	display:none;
+	}
+	
+	@media(max-width:800px){
+		.system{
+		display:none;
+		}
+	
+	
+		.caution{
+		display:block;
+		padding:100px;
+		font-size:30px;
+		}
+	}
